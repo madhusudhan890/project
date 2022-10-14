@@ -30,7 +30,7 @@ let AddressSchema  = new mongoose.Schema({
         }
     }],
   
-})
+});
 
 ///defining the  my schema into the data base
 const Address = mongoose.model("Address",AddressSchema,"Address")

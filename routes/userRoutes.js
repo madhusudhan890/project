@@ -6,7 +6,7 @@ const Routes = [
         method:"POST",
         url:"/ping",
         handler:addressController.ping
-    },
+    }, 
     {
         method:"POST",
         url:"/addContact",

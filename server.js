@@ -38,6 +38,6 @@ const start = async () => {
         fastify.log.error(error)
         process.exit(1)
     }
-}
+};
 
 start()

@@ -98,7 +98,7 @@ exports.verifyJwtToken = async(accessToken,phone) => {
         return{status:"failure","message":"failed to update contact"}  
     }
 }
-
+ 
 ////here based on phone and id i am sending the JWT token to the certified user
 exports.getToken = async(phone,id)=> {
     try {

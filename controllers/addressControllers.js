@@ -164,5 +164,5 @@ exports.getToken = async(req)=> {
         return {"status":"failure","message":"failure in contact services"} 
     }
    
-} 
+};
  
